@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.17d20565.css",
-    "main.js": "/static/js/main.48794897.js",
+    "main.css": "/static/css/main.5f953e79.css",
+    "main.js": "/static/js/main.50576e71.js",
     "static/js/787.6f614db9.chunk.js": "/static/js/787.6f614db9.chunk.js",
+    "static/media/weather.png": "/static/media/weather.2860747aae97e0cfeb12.png",
+    "static/media/webstellar.png": "/static/media/webstellar.f35870a74f58b5cbd765.png",
+    "static/media/martin.jpg": "/static/media/martin.77a71415ac07d960ea62.jpg",
+    "static/media/404 error with person looking for-amico.svg": "/static/media/404 error with person looking for-amico.e8887292b6a2b33a5505fbd62062b270.svg",
     "index.html": "/index.html",
-    "main.17d20565.css.map": "/static/css/main.17d20565.css.map",
-    "main.48794897.js.map": "/static/js/main.48794897.js.map",
+    "main.5f953e79.css.map": "/static/css/main.5f953e79.css.map",
+    "main.50576e71.js.map": "/static/js/main.50576e71.js.map",
     "787.6f614db9.chunk.js.map": "/static/js/787.6f614db9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17d20565.css",
-    "static/js/main.48794897.js"
+    "static/css/main.5f953e79.css",
+    "static/js/main.50576e71.js"
   ]
 }
