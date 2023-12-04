@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f953e79.css",
-    "main.js": "/static/js/main.50576e71.js",
+    "main.css": "/static/css/main.ee670c7e.css",
+    "main.js": "/static/js/main.a296da91.js",
     "static/js/787.6f614db9.chunk.js": "/static/js/787.6f614db9.chunk.js",
     "static/media/weather.png": "/static/media/weather.2860747aae97e0cfeb12.png",
     "static/media/webstellar.png": "/static/media/webstellar.f35870a74f58b5cbd765.png",
     "static/media/martin.jpg": "/static/media/martin.77a71415ac07d960ea62.jpg",
-    "static/media/404 error with person looking for-amico.svg": "/static/media/404 error with person looking for-amico.e8887292b6a2b33a5505fbd62062b270.svg",
+    "static/media/martinMobile.jpg": "/static/media/martinMobile.164848147be34c567553.jpg",
+    "static/media/webstellarMobile.webp": "/static/media/webstellarMobile.8a5f969427ebba3de696.webp",
+    "static/media/CV_MartinROUAULT.pdf": "/static/media/CV_MartinROUAULT.c9af27dd101e1df6769e.pdf",
+    "static/media/weatherMobile.webp": "/static/media/weatherMobile.b3ab8ccb129431e44f11.webp",
     "index.html": "/index.html",
-    "main.5f953e79.css.map": "/static/css/main.5f953e79.css.map",
-    "main.50576e71.js.map": "/static/js/main.50576e71.js.map",
+    "main.ee670c7e.css.map": "/static/css/main.ee670c7e.css.map",
+    "main.a296da91.js.map": "/static/js/main.a296da91.js.map",
     "787.6f614db9.chunk.js.map": "/static/js/787.6f614db9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f953e79.css",
-    "static/js/main.50576e71.js"
+    "static/css/main.ee670c7e.css",
+    "static/js/main.a296da91.js"
   ]
 }
