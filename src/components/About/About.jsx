@@ -3,17 +3,16 @@ import martin from "../../assets/martin.jpg";
 const About = () => {
   return (
     <>
-      <div>
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">About</h2>
         <div className="flex items-center justify-center text-center">
           <div className="hero-content flex-col">
-            <div className="mb-8">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">About</h2>
-              <p className="text-md md:text-lg lg:text-xl py-4">
+            <div className="mb-4">
+              <p className="text-md md:text-lg lg:text-xl">
                 Thank you for stopping by. Read below to learn more about
                 myself.
               </p>
             </div>
-            <img src={martin} className="max-w-xs md:max-w-md rounded-3xl shadow-2xl" />
+            <img src={martin} className="max-w-xs md:max-w-md rounded-3xl shadow-2xl" alt="myself"/>
           </div>
         </div>
         <section className="mt-20">
@@ -44,7 +43,6 @@ const About = () => {
             </p>
         </div>
         </section>
-      </div>
     </>
   );
 };
