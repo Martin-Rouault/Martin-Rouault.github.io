@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee670c7e.css",
-    "main.js": "/static/js/main.a296da91.js",
+    "main.css": "/static/css/main.45ca2b9b.css",
+    "main.js": "/static/js/main.08517aab.js",
     "static/js/787.6f614db9.chunk.js": "/static/js/787.6f614db9.chunk.js",
     "static/media/weather.png": "/static/media/weather.2860747aae97e0cfeb12.png",
     "static/media/webstellar.png": "/static/media/webstellar.f35870a74f58b5cbd765.png",
@@ -11,12 +11,12 @@
     "static/media/CV_MartinROUAULT.pdf": "/static/media/CV_MartinROUAULT.c9af27dd101e1df6769e.pdf",
     "static/media/weatherMobile.webp": "/static/media/weatherMobile.b3ab8ccb129431e44f11.webp",
     "index.html": "/index.html",
-    "main.ee670c7e.css.map": "/static/css/main.ee670c7e.css.map",
-    "main.a296da91.js.map": "/static/js/main.a296da91.js.map",
+    "main.45ca2b9b.css.map": "/static/css/main.45ca2b9b.css.map",
+    "main.08517aab.js.map": "/static/js/main.08517aab.js.map",
     "787.6f614db9.chunk.js.map": "/static/js/787.6f614db9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee670c7e.css",
-    "static/js/main.a296da91.js"
+    "static/css/main.45ca2b9b.css",
+    "static/js/main.08517aab.js"
   ]
 }
