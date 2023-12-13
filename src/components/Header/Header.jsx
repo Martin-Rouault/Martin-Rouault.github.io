@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Header = () => {
   const [theme, setTheme] = useState("cupcake");
   const [menu, setMenu] = useState(false);
 
   const toggleTheme = () => {
-    const currentTheme = theme === "cupcake" ? "night" : "cupcake";
+    const currentTheme = theme === "cupcake" ? "sunset" : "cupcake";
     setTheme(currentTheme);
     document.documentElement.setAttribute("data-theme", currentTheme);
   };
@@ -15,16 +15,26 @@ const Header = () => {
     setMenu(!menu);
   };
 
+  const handleClickOutside = (event) => {
+    if (event.target.closest(".dropdown")) return;
+    setMenu(false);
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside);
+  });
+
+
   return (
     <>
-      <div className="navbar py-2 mb-6 md:mb-8 lg:mb-10 lg:py-4">
+      <div className="navbar py-2 mb-6 md:mb-8 lg:mb-10 lg:py-4 lg:w-4/5 lg:flex lg:justify-center mx-auto">
         <div className="navbar-start">
-          <details className="dropdown lg:hidden">
-            <summary
-              className="btn btn-ghost swap swap-rotate"
+          <menu className="dropdown lg:hidden">
+            <button
+              className="btn btn-ghost"
               onClick={toggleMenu}
+              aria-label="menu"
             >
-              <input type="checkbox" />
               {menu ? (
                 <svg
                   className="fill-current"
@@ -46,46 +56,46 @@ const Header = () => {
                   <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
                 </svg>
               )}
-            </summary>
+            </button>
             <ul
               className={`p-2 shadow-2xl menu dropdown-content z-[1] bg-base-100 rounded-box w-52 ${
                 menu ? "block" : "hidden"
               }`}
             >
               <li>
-                <NavLink to="/">
+                <NavLink to="/" onClick={toggleMenu}>
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about">
+                <NavLink to="/about" onClick={toggleMenu}>
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/projects">
+                <NavLink to="/projects" onClick={toggleMenu}>
                   Projects
                 </NavLink>
               </li>
             </ul>
-          </details>
+          </menu>
           <NavLink
             to="/"
             className="btn btn-ghost text-base md:text-lg lg:text-2xl"
           >
-            Martin Rouault
+            Martin Rouault 
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex rounded-xl">
-          <ul className="menu text-sm menu-horizontal rounded-xl lg:text-lg xl:text-xl">
-            <li className="">
-              <NavLink to="/">Home</NavLink>
+          <ul className="menu text-sm menu-horizontal lg:text-lg xl:text-xl">
+            <li>
+              <NavLink className="menu-btn" to="/">Home</NavLink>
             </li>
-            <li className="">
-              <NavLink to="/about">About</NavLink>
+            <li>
+              <NavLink className="menu-btn" to="/about">About</NavLink>
             </li>
-            <li className="">
-              <NavLink to="/projects">Projects</NavLink>
+            <li>
+              <NavLink className="menu-btn" to="/projects">Projects</NavLink>
             </li>
           </ul>
         </div>
