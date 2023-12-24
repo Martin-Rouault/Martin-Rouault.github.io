@@ -1,10 +1,11 @@
 import martin from "../../assets/martin.jpg";
 import martinMobile from "../../assets/martinMobile.jpg";
+import Skills from "./Skills";
 
 const About = () => {
   return (
     <>
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+      <h2 id="about" className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
         About
       </h2>
       <div className="flex items-center justify-center text-center">
@@ -14,14 +15,6 @@ const About = () => {
               Thank you for stopping by. Read below to learn more about myself.
             </p>
           </div>
-          <picture>
-            <source media="(min-width: 768px)" srcSet={martin} />
-            <img
-              src={martinMobile}
-              className="w-4/5 h-4/5 sm:w-3/6 sm:h-2/5 lg:w-3/6 lg:h-3/5 mx-auto rounded-3xl shadow-2xl"
-              alt="Martin Rouault"
-            />
-          </picture>
         </div>
       </div>
       <section className="p-6 md:p-12 mx-auto my-16 lg:my-24 w-full md:w-4/5">

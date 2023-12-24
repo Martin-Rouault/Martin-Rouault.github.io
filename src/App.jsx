@@ -15,12 +15,7 @@ function App() {
         <Header />
       </header>
       <main>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
+        <Home />
       <Contact />
       </main>
       <footer className="footer">

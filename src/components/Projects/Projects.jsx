@@ -8,7 +8,7 @@ const Projects = () => {
     <>
       <div className="lg:w-4/5 mx-auto mb-16 lg:mb-32">
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-4 font-bold">
+          <h2 id="projects" className="text-3xl md:text-4xl lg:text-5xl mb-4 font-bold">
             My Projects
           </h2>
         </div>
@@ -42,7 +42,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="menu-btn btn btn-outline btn-info text-sm md:text-md lg:text-lg">
+                  <button className="menu-btn btn btn-outline text-sm md:text-md lg:text-lg">
                     Visit now
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="menu-btn btn btn-outline btn-info text-sm md:text-md lg:text-lg">
+                  <button className="menu-btn btn btn-outline text-sm md:text-md lg:text-lg">
                     Visit now
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
