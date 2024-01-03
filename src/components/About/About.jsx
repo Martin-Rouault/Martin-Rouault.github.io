@@ -1,11 +1,10 @@
-import martin from "../../assets/martin.jpg";
 import martinMobile from "../../assets/martinMobile.jpg";
-import Skills from "./Skills";
 
 const About = () => {
   return (
     <>
-      <h2 id="about" className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+    <section className="my-14 md:my-20">
+      <h2 id="about" data-aos="fade-down" className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
         About
       </h2>
       <div className="flex items-center justify-center text-center">
@@ -14,10 +13,13 @@ const About = () => {
             <p className="text-md md:text-lg lg:text-xl">
               Thank you for stopping by. Read below to learn more about myself.
             </p>
+            <div className="flex justify-center items-center my-20">
+            <img src={martinMobile} alt="me" className="w-96 h-96 object-cover rounded-lg" />
+            </div>
           </div>
         </div>
       </div>
-      <section className="p-6 md:p-12 mx-auto my-16 lg:my-24 w-full md:w-4/5">
+      <section className="p-6 md:p-12 mx-auto my-16 lg:my-24">
         <div className="text-center lg:flex lg:flex-row lg:items-start lg:justify-start lg:align-start">
           <p className="text-lg mb-2 lg:mb-0 lg:mr-4 self-start md:text-xl lg:text-2xl font-semibold">
             Background
@@ -33,7 +35,7 @@ const About = () => {
           </p>
         </div>
       </section>
-      <section className="p-6 md:p-12 mx-auto my-16 lg:my-24 w-full md:w-4/5">
+      <section className="p-6 md:p-12 mx-auto my-16 lg:my-24">
         <div className="text-center">
           <p className="text-lg md:text-xl lg:text-2xl font-semibold">
             Skills
@@ -42,6 +44,7 @@ const About = () => {
 
           </p>
         </div>
+      </section>
       </section>
     </>
   );

@@ -6,14 +6,18 @@ import webstellarMobile from "../../assets/webstellarMobile.webp";
 const Projects = () => {
   return (
     <>
-      <div className="lg:w-4/5 mx-auto mb-16 lg:mb-32">
+      <div className="my-14 lg:my-20 mx-auto mb-16 lg:mb-32">
         <div className="text-center">
-          <h2 id="projects" className="text-3xl md:text-4xl lg:text-5xl mb-4 font-bold">
+          <h2
+            id="projects"
+            className="text-3xl md:text-4xl lg:text-5xl mb-4 font-bold"
+            data-aos="fade-down"
+          >
             My Projects
           </h2>
         </div>
-        <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-evenly mt-8 md:mb-24 lg:mt-16 lg:gap-12">
-          <div className="card w-4/5 mb-12 md:mb-8 lg:mb-0 glass">
+        <div className="w-full flex flex-col justify-center items-center lg:flex-row lg:justify-evenly mt-8 md:mb-24 lg:mt-16 lg:gap-12">
+          <div className="card w-full lg:w-2/4 my-12 md:mb-8 lg:mb-0 border border-gray-500 shadow-xl">
             <figure>
               <picture>
                 <source
@@ -30,19 +34,25 @@ const Projects = () => {
               </picture>
             </figure>
             <div className="card-body mt-4">
+              <article>
               <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
                 WebStellar
               </h2>
-              <p className="text-sm md:text-md lg:text-lg mb-4">
-                A beautiful site
+              <p className="text-sm text-justify md:text-md lg:text-lg mb-4">
+                WebStellar, a collaborative project from my training, is an
+                online platform dedicated to exploring the digital realm.
+                Inspired by our fascination with astronomy and space, WebStellar
+                provides an immersive online experience where users can explore,
+                learn, and engage with the vast digital universe.
               </p>
+              </article>
               <div className="card-actions justify-end">
                 <a
                   href="https://webstellar.io/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="menu-btn btn btn-outline text-sm md:text-md lg:text-lg">
+                  <button className="btn btn-ghost border-current hover:border-primary rounded-lg shadow-inner text-sm md:text-md lg:text-lg">
                     Visit now
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +76,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="card w-4/5 md:h-3/4 glass">
+          <div className="card w-full lg:w-2/4 border border-gray-500 shadow-xl">
             <figure>
               <picture>
                 <source
@@ -83,19 +93,23 @@ const Projects = () => {
               </picture>
             </figure>
             <div className="card-body mt-4">
+              <article className="">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2">
                 O-Weather
               </h2>
-              <p className="text-sm md:text-md lg:text-lg mb-4">
-                How to park your car at your garage?
+              <p className="text-sm text-justify md:text-md lg:text-lg mb-4">
+                O'Weather is a weather app that allows you to search for a city.
+                It displays the weather, temperature, wind of the city you are looking for.<br/>
+                This project is using the <span className="font-semibold"> OpenWeatherMap API.</span>
               </p>
+              </article>
               <div className="card-actions justify-end">
                 <a
                   href="https://o-weather.surge.sh/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="menu-btn btn btn-outline text-sm md:text-md lg:text-lg">
+                  <button className="btn btn-ghost border-current hover:border-primary rounded-lg shadow-inner text-sm md:text-md lg:text-lg">
                     Visit now
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
