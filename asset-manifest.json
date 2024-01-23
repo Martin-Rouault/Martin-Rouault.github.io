@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.664c81c2.css",
-    "main.js": "/static/js/main.c95b30ca.js",
+    "main.css": "/static/css/main.dbbadc3f.css",
+    "main.js": "/static/js/main.6a270d03.js",
     "static/media/CV_Martin-Rouault.pdf": "/static/media/CV_Martin-Rouault.e4c9d1a1a291d22f2052.pdf",
     "static/media/IMG_1692.webp": "/static/media/IMG_1692.5b10705ad2d3cdfe02ba.webp",
     "static/media/martin.jpg": "/static/media/martin.77a71415ac07d960ea62.jpg",
@@ -11,11 +11,11 @@
     "static/media/wave-test.svg": "/static/media/wave-test.48365dea3b51eb4d11cd.svg",
     "static/media/wave-dark.svg": "/static/media/wave-dark.ac60e12ee84cdbb21ad5.svg",
     "index.html": "/index.html",
-    "main.664c81c2.css.map": "/static/css/main.664c81c2.css.map",
-    "main.c95b30ca.js.map": "/static/js/main.c95b30ca.js.map"
+    "main.dbbadc3f.css.map": "/static/css/main.dbbadc3f.css.map",
+    "main.6a270d03.js.map": "/static/js/main.6a270d03.js.map"
   },
   "entrypoints": [
-    "static/css/main.664c81c2.css",
-    "static/js/main.c95b30ca.js"
+    "static/css/main.dbbadc3f.css",
+    "static/js/main.6a270d03.js"
   ]
 }
