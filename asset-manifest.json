@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.21373763.css",
-    "main.js": "/static/js/main.624ad0aa.js",
-    "static/js/787.6f614db9.chunk.js": "/static/js/787.6f614db9.chunk.js",
-    "static/media/weather.png": "/static/media/weather.2860747aae97e0cfeb12.png",
-    "static/media/webstellar.png": "/static/media/webstellar.f35870a74f58b5cbd765.png",
+    "main.css": "/static/css/main.31b6d305.css",
+    "main.js": "/static/js/main.58811a29.js",
+    "static/media/CV_Martin-Rouault.pdf": "/static/media/CV_Martin-Rouault.e4c9d1a1a291d22f2052.pdf",
+    "static/media/IMG_1692.webp": "/static/media/IMG_1692.5b10705ad2d3cdfe02ba.webp",
     "static/media/martin.jpg": "/static/media/martin.77a71415ac07d960ea62.jpg",
     "static/media/martinMobile.jpg": "/static/media/martinMobile.164848147be34c567553.jpg",
     "static/media/webstellarMobile.webp": "/static/media/webstellarMobile.8a5f969427ebba3de696.webp",
-    "static/media/CV_MartinROUAULT.pdf": "/static/media/CV_MartinROUAULT.c9af27dd101e1df6769e.pdf",
     "static/media/weatherMobile.webp": "/static/media/weatherMobile.b3ab8ccb129431e44f11.webp",
+    "static/media/wave-test.svg": "/static/media/wave-test.48365dea3b51eb4d11cd.svg",
+    "static/media/wave-dark.svg": "/static/media/wave-dark.ac60e12ee84cdbb21ad5.svg",
     "index.html": "/index.html",
-    "main.21373763.css.map": "/static/css/main.21373763.css.map",
-    "main.624ad0aa.js.map": "/static/js/main.624ad0aa.js.map",
-    "787.6f614db9.chunk.js.map": "/static/js/787.6f614db9.chunk.js.map"
+    "main.31b6d305.css.map": "/static/css/main.31b6d305.css.map",
+    "main.58811a29.js.map": "/static/js/main.58811a29.js.map"
   },
   "entrypoints": [
-    "static/css/main.21373763.css",
-    "static/js/main.624ad0aa.js"
+    "static/css/main.31b6d305.css",
+    "static/js/main.58811a29.js"
   ]
 }
