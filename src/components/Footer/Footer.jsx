@@ -1,4 +1,7 @@
 const Footer = () => {
+  
+  const date = new Date().getFullYear();
+
   return (
     <>
       <footer className="footer footer-center pt-10 pb-5">
@@ -6,7 +9,7 @@ const Footer = () => {
           <p className="font-bold">
             Made with <span className="text-red-500">❤</span> by Martin Rouault
           </p>
-          <p>Copyright © 2024 - All right reserved</p>
+          <p>Copyright © {date} - All right reserved</p>
         </aside>
       </footer>
     </>

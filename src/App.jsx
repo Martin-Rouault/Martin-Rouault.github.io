@@ -11,13 +11,12 @@ import Contact from "./components/Contact/Contact";
 import Error from "./components/Error/Error";
 
 function App() {
-
   const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);

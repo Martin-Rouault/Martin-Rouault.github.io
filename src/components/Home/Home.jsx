@@ -6,30 +6,28 @@ import Project from "../Projects/Project";
 const Home = () => {
   return (
     <>
-      <section data-aos="fade-in" data-aos-delay="150" className="flex flex-col my-12 sm:my-16 md:my-24 lg:my-36 justify-center gap-10 lg:flex-row-reverse lg:justify-around lg:items-center">
+    <div className="background">
+      <section data-aos="fade-in" data-aos-delay="180" className="flex flex-col my-12 sm:my-16 md:my-24 lg:my-36 justify-center gap-10 lg:flex-row-reverse lg:justify-around lg:items-center">
         <picture className="">
-          <source media="(min-width: 768px)" srcSet={martin} loading="lazy" />
+          <source media="(min-width: 768px)" srcSet={martin} />
           <img
             src={martinMobile}
             className="object-cover mx-auto lg:mx-0 w-64 md:w-72 lg:w-80 rounded-full shadow-2xl"
             alt="Martin Rouault"
-            loading="lazy"
           />
         </picture>  
         <div className="lg:w-1/2">
-          <h1 className=" text-center lg:text-left text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">
+          <h1 className="text-center lg:text-left text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">
             Hello, my name is{" "}
             <span className="text-primary">Martin Rouault.</span>
           </h1>
           <p className="text-center lg:text-left text-sm md:text-md lg:text-lg xl:text-xl py-6">
-            I'm a creative web developer based in Paris, France. I enjoy
-            building everything from small business sites to rich interactive
-            web apps. I am currently looking for a job as a web developer.
+            I'm a creative web developer based in Paris, France. I love to  build beautiful and functional websites.  
           </p>
           <div className="flex justify-center lg:justify-start gap-6">
             <a
               href="https://www.linkedin.com/in/martin-rouault/"
-              className="btn btn-circle btn-ghost shadow-inner"
+              className="btn btn-circle btn-ghost shadow-inner backdrop-blur-2xl"
               aria-label="LinkedIn"
             >
               <svg
@@ -42,7 +40,7 @@ const Home = () => {
             </a>
             <a
               href="https://github.com/Martin-Rouault"
-              className="btn btn-circle btn-ghost shadow-inner"
+              className="btn btn-circle btn-ghost shadow-inner backdrop-blur-2xl"
               aria-label="GitHub"
             >
               <svg
@@ -58,6 +56,7 @@ const Home = () => {
       </section>
       <Skills />
       <Project />
+      </div>
     </>
   );
 };

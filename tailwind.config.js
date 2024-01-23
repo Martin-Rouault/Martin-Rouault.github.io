@@ -23,11 +23,11 @@ module.exports = {
         night: {
           ...require("daisyui/src/theming/themes")["night"],
           "color": "#FFFFFF",
-          "background-color": "#0E141B",
+          "background-color": "#151515",
           "primary": "#617BFF",
           "secondary": "#FF0A78",
           "accent": "#2B4555",
-          "base-100": "#0E141B",
+          "base-100": "#151515",
         },
       },
     ],

@@ -13,7 +13,7 @@ const Project = () => {
             Discover my last projects
           </p>
         </div>
-        <NavLink 
+        <NavLink
           to="/projects"
           className="hidden md:btn md:btn-ghost md:text-xl"
         >
@@ -35,10 +35,16 @@ const Project = () => {
         </NavLink>
       </section>
       <section className="my-24 flex flex-col justify-center items-center md:block">
-        <div data-aos="flip-up" className="card card-compact w-full md:w-7/12 lg:w-5/12 shadow-inner">
+        <div
+          data-aos="flip-left"
+          data-aos-delay="100"
+          className="card card-compact w-full md:w-7/12 lg:w-5/12 backdrop-blur-2xl shadow-2xl"
+        >
           <NavLink to="/projects">
             <div className="card-body flex flex-row justify-between hover:text-primary">
-              <h2 className="card-title text-sm md:text-lg lg:text-xl">WebStellar</h2>
+              <h2 className="card-title text-sm md:text-lg lg:text-xl">
+                WebStellar
+              </h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -56,7 +62,7 @@ const Project = () => {
             </div>
           </NavLink>
           <figure>
-            <img src={webstellarMobile} alt="webstellar app" />
+            <img src={webstellarMobile} loading="lazy" alt="webstellar app" />
           </figure>
         </div>
         <div className="text-center mt-24">

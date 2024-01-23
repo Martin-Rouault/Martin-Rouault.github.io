@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -15,10 +19,27 @@
   3. Add accessible line-height
   4. Improve text rendering
 */
+/* Styles pour le thème par défaut */
+/* Styles pour le thème par défaut */
+body, body::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-image: url('./assets/wave-test.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+body.night {
+  background-image: url('./assets/wave-dark.svg');
+}
+
 /*
   5. Improve media defaults
 */
@@ -67,3 +88,5 @@ p, h1, h2, h3, h4, h5, h6 {
       padding-right: 14px;
   }
 }
+
+

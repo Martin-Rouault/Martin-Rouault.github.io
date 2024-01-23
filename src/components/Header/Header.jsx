@@ -1,33 +1,36 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { activeClassName } from 'react-router-dom';
 
 const Header = () => {
   // retrieve the theme from localStorage
   const storedTheme = localStorage.getItem("theme");
+  const storedSvgTheme = localStorage.getItem("svgTheme");
 
   // Using the theme stored in localStorage. If there is no theme stored, the default one is gonna be "cupcake"
   const [theme, setTheme] = useState(
     storedTheme === "night" ? storedTheme : "cupcake"
   );
+
+  const [svgTheme, setSvgTheme] = useState(
+    storedSvgTheme === "night" ? storedSvgTheme : "cupcake"
+  );
+  
   const [menu, setMenu] = useState(false);
 
-  // function to toggle between themes
   const toggleTheme = () => {
-    // if the theme is cupcake, set it to night. Otherwise, set it to cupcake
     const currentTheme = theme === "cupcake" ? "night" : "cupcake";
-
-    // save the new theme in state
     setTheme(currentTheme);
-
-    // save the new theme in localStorage
+    setSvgTheme(currentTheme);
     localStorage.setItem("theme", currentTheme);
+    localStorage.setItem("svgTheme", currentTheme);
   };
 
-  // apply the theme on mount and when the value of "theme" changes
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
+    document.body.classList.toggle("night", theme === "night");
   }, [theme]);
-
+  
   // function to toggle the menu on mobile
   const toggleMenu = () => {
     setMenu(!menu);
@@ -46,8 +49,8 @@ const Header = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center md:items-end my-3 md:my-8">
-        <menu className="dropdown md:hidden">
+      <nav className="flex justify-between items-center md:items-end md:py-8">
+        <menu className="dropdown md:hidden my-3 md:my-0">
           <button
             className=""
             onClick={toggleMenu}
@@ -99,24 +102,24 @@ const Header = () => {
             </li>
           </ul>
         </menu>
-
+        
         <NavLink to="/" className="font-semibold italic md:text-xl lg:text-2xl">
           MR.
         </NavLink>
         <div className="hidden md:flex md:justify-evenly">
           <ul className="md:inline-flex gap-14 font-medium lg:text-lg">
             <li>
-              <NavLink to="/" className="hover:underline">
+              <NavLink to="/" className={window.location.pathname === "/" ? "underline" : ""}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className="hover:underline">
+              <NavLink to="/about" className={window.location.pathname === "/about" ? "underline" : ""}>
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/projects" className="hover:underline">
+              <NavLink to="/projects" className={window.location.pathname === "/projects" ? "underline" : ""}>
                 Projects
               </NavLink>
             </li>

@@ -1,9 +1,10 @@
 const Skills = () => {
   return (
     <section
-      className="p-10 md:p-12 my-16 lg:my-48 rounded-2xl border border-gray-500 shadow-2xl"
+      className="p-10 md:p-12 my-16 lg:my-48 rounded-2xl border border-gray-500 bg-transparent backdrop-blur-2xl shadow-2xl"
       id="skills"
       data-aos="fade-down"
+      data-aos-delay="2O0"
     >
       <div className="text-left text-sm md:text-md lg:text-lg gap-6 grid grid-cols-1 lg:grid-cols-3 lg:gap-20 ">
         <div className=" mb-6 lg:mb-0">
