@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.d108def2.css",
-    "main.js": "/static/js/main.688ba72a.js",
+    "main.js": "/static/js/main.ea9d3d75.js",
     "static/media/CV_Martin-Rouault.pdf": "/static/media/CV_Martin-Rouault.e4c9d1a1a291d22f2052.pdf",
     "static/media/IMG_1692.webp": "/static/media/IMG_1692.5b10705ad2d3cdfe02ba.webp",
     "static/media/martin.jpg": "/static/media/martin.77a71415ac07d960ea62.jpg",
     "static/media/martinMobile.jpg": "/static/media/martinMobile.164848147be34c567553.jpg",
     "static/media/webstellarMobile.webp": "/static/media/webstellarMobile.8a5f969427ebba3de696.webp",
-    "static/media/weatherMobile.webp": "/static/media/weatherMobile.b3ab8ccb129431e44f11.webp",
+    "static/media/weatherMobile.webp": "/static/media/weatherMobile.6eed4575d908feeeda43.webp",
     "static/media/wave-test.svg": "/static/media/wave-test.48365dea3b51eb4d11cd.svg",
     "static/media/wave-dark.svg": "/static/media/wave-dark.ac60e12ee84cdbb21ad5.svg",
     "index.html": "/index.html",
     "main.d108def2.css.map": "/static/css/main.d108def2.css.map",
-    "main.688ba72a.js.map": "/static/js/main.688ba72a.js.map"
+    "main.ea9d3d75.js.map": "/static/js/main.ea9d3d75.js.map"
   },
   "entrypoints": [
     "static/css/main.d108def2.css",
-    "static/js/main.688ba72a.js"
+    "static/js/main.ea9d3d75.js"
   ]
 }
