@@ -30,10 +30,9 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-image: url('./assets/wave-test.svg');
-  background-repeat: no-repeat;
   background-position: top center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 body.night {

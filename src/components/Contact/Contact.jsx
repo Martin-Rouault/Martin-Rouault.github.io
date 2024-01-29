@@ -31,7 +31,7 @@ const Contact = () => {
         </a>
         <a
           className="shadow-lg btn btn-ghost text-md md:text-xl font-medium"
-          href="mailto:tintinmilou933@gmail.com"
+          href="mailto:martin.rlt24@gmail.com"
         >
           Contact me &#x2709;
         </a>

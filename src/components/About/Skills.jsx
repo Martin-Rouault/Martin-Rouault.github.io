@@ -3,8 +3,6 @@ const Skills = () => {
     <section
       className="p-10 md:p-12 my-16 lg:my-48 rounded-2xl border border-gray-500 bg-transparent backdrop-blur-2xl shadow-2xl"
       id="skills"
-      data-aos="fade-down"
-      data-aos-delay="2O0"
     >
       <div className="text-left text-sm md:text-md lg:text-lg gap-6 grid grid-cols-1 lg:grid-cols-3 lg:gap-20 ">
         <div className=" mb-6 lg:mb-0">
@@ -19,11 +17,11 @@ const Skills = () => {
               <path d="M11.983 1.907a.75.75 0 00-1.292-.657l-8.5 9.5A.75.75 0 002.75 12h6.572l-1.305 6.093a.75.75 0 001.292.657l8.5-9.5A.75.75 0 0017.25 8h-6.572l1.305-6.093z" />
             </svg>
           </h2>
-          <p className="text-md mt-2 md:mt-4 lg:mt-6 text-left leading-relaxed">
-            Capacity to quickly adapt to new work environments.
-            I am always ready to learn new things.
-            My curiosity is my strength.
-            Experience in working in a team.
+          <p className="text-base mt-2 md:mt-4 lg:mt-6 text-left leading-relaxed">
+            Adapting swiftly to challenges, I embrace an energetic approach to
+            projects. Open to learning and ready for teamwork, I easily adapt to
+            change. Thriving in innovative environments, my curiosity fuels
+            continuous improvement for a vibrant and productive outcome.
           </p>
         </div>
         <div className="mb-6 lg:mb-0">
@@ -39,12 +37,11 @@ const Skills = () => {
             </svg>
           </h2>
 
-          <p className="text-md mt-2 md:mt-4 lg:mt-6 text-left leading-relaxed">
-            Capacity to quickly adapt to new work environments.
-            I am always ready to learn new things.
-            My curiosity is my strength.
-            Experience in working in a team.
-            Capacity to quickly adapt to new work environments.
+          <p className="text-base mt-2 md:mt-4 lg:mt-6 text-left leading-relaxed">
+            Always open to new ideas and perspectives. I accept criticism as a
+            tool for improvement. I'm ready to listen and value the richness of
+            varied viewpoints. Inclusive in my thinking, I contribute to an
+            open-minded and creative work atmosphere.
           </p>
         </div>
         <div className="mb-6 lg:mb-0">
@@ -68,13 +65,12 @@ const Skills = () => {
               />
             </svg>
           </h2>
-          <p className="text-md mt-2 md:mt-4 lg:mt-6 text-left leading-relaxed">
-            Eager to give 100% in every projects and push to get the best
-            results.
-            Capacity to quickly adapt to new work environments.
-            I am always ready to learn new things.
-            My curiosity is my strength.
-            Experience in working in a team.
+          <p className="text-base mt-2 md:mt-4 lg:mt-6 text-left leading-relaxed">
+            I approach each project with dedication, focusing on consistent
+            effort. Persistence is my approach to achieving goals, contributing
+            reliably. I bring a strong work ethic to every task, aiming for
+            meaningful impact. Devoted to project success, I work with
+            determination.
           </p>
         </div>
       </div>

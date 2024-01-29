@@ -2,7 +2,7 @@ import { useState } from "react";
 import projectsData from "../../data/projectData";
 
 const Projects = () => {
-  const maxDescriptionLenght = 150;
+  const maxDescriptionLenght = 200;
   const [showFullDescriptionn, setShowFullDescription] = useState(false);
 
   const handleDescription = () => {

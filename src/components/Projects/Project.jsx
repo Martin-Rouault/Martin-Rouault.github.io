@@ -36,8 +36,6 @@ const Project = () => {
       </section>
       <section className="my-24 flex flex-col justify-center items-center md:block">
         <div
-          data-aos="flip-left"
-          data-aos-delay="100"
           className="card card-compact w-full md:w-7/12 lg:w-5/12 backdrop-blur-2xl shadow-2xl"
         >
           <NavLink to="/projects">
