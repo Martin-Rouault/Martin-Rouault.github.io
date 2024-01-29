@@ -108,17 +108,17 @@ const Header = () => {
           <div className="hidden md:flex md:justify-evenly">
             <ul className="md:inline-flex gap-14 font-medium lg:text-lg">
               <li>
-                <NavLink to="/" className={window.location.pathname === "/" ? "underline" : ""}>
+                <NavLink to="/">
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about" className={window.location.pathname === "/about" ? "underline" : ""}>
+                <NavLink to="/about">
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/projects" className={window.location.pathname === "/projects" ? "underline" : ""}>
+                <NavLink to="/projects">
                   Projects
                 </NavLink>
               </li>
