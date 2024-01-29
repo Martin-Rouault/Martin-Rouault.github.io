@@ -1,1 +1,1 @@
-# My beautiful portfolio, using React and Tailwind.
+# My beautiful portfolio, using React, Tailwind and DaisyUI.
